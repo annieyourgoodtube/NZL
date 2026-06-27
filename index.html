@@ -260,11 +260,11 @@ const DAYS=[
   note:"⛴️ Walter Peak 農場導覽（含 TSS Earnslaw）約 NZ$155，先在 RealNZ 預約農場導覽（固定 13:00／15:00 出發，選 13:00 班、抵皇后鎮後接得上）；是綿羊／高地牛站、非酪農場（不能擠奶）。車程約 175km；Sunshine Bay 湖西側、離鎮中心約 5 分／離皇后鎮機場約 15km（次日傍晚回機場約 20 分）"},
  {n:8,date:"10/23 (五)",accent:"#566587",title:"🧳 皇后鎮 · 悠閒早晨 → 傍晚搭機",vibe:"湖城告別",vibeEn:"Easy Morning, Homeward",
   route:["皇后鎮 Sunshine Bay","皇后鎮機場","台北"],km:"15 km",soft:true,
-  intro:"【終章：悠閒早晨，傍晚搭機回家】牧場昨天已玩過，今天完全不趕——上午湖邊咖啡、Sunshine Bay 散步、最後採買，中午簡單吃個午餐。午後到機場還車，<b>VA120 17:30</b> 飛布里斯本 → 轉 <b>SQ246</b> 紅眼飛新加坡 → <b>SQ876</b>，<b>10/24 中午 12:55 返抵台北桃園</b>。全程不過夜。",
-  tl:[["上午","湖邊咖啡 · Sunshine Bay 散步 · 收行李"],["~11:30","皇后鎮午餐 · 🛍 Chemist Warehouse 最後補貨（若還沒買齊）"],["~14:30","皇后鎮機場還車 · 國際線報到"],["17:30","VA120 飛布里斯本 ✈️"],["23:25","SQ246 布里斯本→新加坡（紅眼）"],["10/24 12:55","返抵台北桃園 🛬"]],
+  intro:"【終章：悠閒早晨，傍晚搭機回家】牧場昨天已玩過，今天完全不趕——上午湖邊咖啡、Sunshine Bay 散步、最後採買，中午簡單吃個午餐。午後到機場還車，<b>VA120 17:30</b> 飛布里斯本 → 轉 <b>CI054</b> 紅眼直飛回台北，<b>10/24 清晨 05:40 返抵桃園</b>。全程不過夜。",
+  tl:[["上午","湖邊咖啡 · Sunshine Bay 散步 · 收行李"],["~11:30","皇后鎮午餐 · 🛍 Chemist Warehouse 最後補貨（若還沒買齊）"],["~14:30","皇后鎮機場還車 · 國際線報到"],["17:30","VA120 飛布里斯本 ✈️"],["22:50","CI054 布里斯本→台北（紅眼直飛）"],["10/24 05:40","返抵桃園 🛬"]],
   shots:[["Sunshine Bay 湖灘","★清晨安靜的湖畔散步",1],["皇后鎮湖濱","最後的湖光山色，慢慢收進相機"],["（返程）","把南島的山與湖帶回家"]],
-  stay:"宿 <b>紅眼機上</b>　BNE→SIN 過夜、新加坡只轉機 3h25m · 10/24 中午到家",
-  note:"悠閒收尾日——Walter Peak 牧場已挪到前一天，今天不趕。皇后鎮午餐可吃 Fergburger／湖畔餐廳。VA120→SQ246 布里斯本轉 5h10m、新加坡轉 3h25m，全程不過夜。Cardrona（原 10/23）已取消"}
+  stay:"宿 <b>紅眼機上</b>　CI054 布里斯本→台北 紅眼直飛 · 10/24 清晨 05:40 到家",
+  note:"悠閒收尾日——Walter Peak 牧場已挪到前一天，今天不趕。皇后鎮午餐可吃 Fergburger／湖畔餐廳。VA120→CI054 布里斯本轉 4h35m，直飛回台、全程不過夜。Cardrona（原 10/23）已取消"}
 ];
 
 const NEAR={
@@ -303,22 +303,18 @@ const FLIGHTS=`
   <div class="lbl">航班資訊</div>
   <div class="flights">
     <div class="fj">
-      <div class="fhead">去程 · 10/14 (三) 出發 <span>新航 + 澳航</span></div>
-      <div class="fleg">SQ879　TPE 17:35 → SIN 22:20</div>
-      <div class="flay">新加坡轉機 2h35m</div>
-      <div class="fleg">SQ255　SIN 00:55 → BNE 10:45 <span class="fday">10/15</span></div>
-      <div class="flay">布里斯本轉機 7h10m</div>
+      <div class="fhead">去程 · 10/14 (三) 出發 <span>中華（直飛）+ 澳航</span></div>
+      <div class="fleg">CI053　TPE 23:55 → BNE 10:35 <span class="fday">10/15</span>（中華 · A350 · 商務艙 · 直飛 8h40m）</div>
+      <div class="flay">布里斯本轉機 7h20m</div>
       <div class="fleg">QF135　BNE 17:55 → CHC 00:25 <span class="fday">10/16</span></div>
     </div>
     <div class="fj">
-      <div class="fhead">回程 · 10/23 (五) 出發 <span>維珍 + 新航</span></div>
+      <div class="fhead">回程 · 10/23 (五) 出發 <span>維珍 + 中華（直飛）</span></div>
       <div class="fleg">VA120　ZQN 17:30 → BNE 18:15 <span class="fday">10/23</span></div>
-      <div class="flay">布里斯本轉機 5h10m（不過夜）</div>
-      <div class="fleg">SQ246　BNE 23:25 → SIN 05:05 <span class="fday">10/24</span></div>
-      <div class="flay">新加坡轉機 3h25m</div>
-      <div class="fleg">SQ876　SIN 08:30 → TPE 12:55 <span class="fday">10/24</span></div>
+      <div class="flay">布里斯本轉機 4h35m（不過夜）</div>
+      <div class="fleg">CI054　BNE 22:50 → TPE 05:40 <span class="fday">10/24</span>（中華 · A350 · 商務艙 · 直飛 8h50m）</div>
     </div>
-    <div class="fnote">✈️ 兩段機票分開：台北↔布里斯本（新航）與布里斯本↔紐西蘭（澳航／維珍）需在布里斯本各自提領行李、重新掛行李。</div>
+    <div class="fnote">✈️ 兩段機票分開：台北↔布里斯本（中華 · 直飛）與布里斯本↔紐西蘭（澳航／維珍）需在布里斯本各自提領行李、重新掛行李。</div>
   </div>`;
 
 const stage=document.getElementById('stage');
@@ -357,7 +353,7 @@ const QUICK={
  7:["08:00 → 17:00","上午沿湖回皇后鎮，午後 13:00 搭 TSS 去 Walter Peak 高地牧場餵牛羊 🐄","TSS Earnslaw 農場 NZ$155"],
  8:["悠閒早晨 → 17:30 飛","湖邊咖啡、Sunshine Bay 散步、最後採買，午後還車搭機賦歸",""]
 };
-let qrows='<div class="qrow" data-go="1" style="--qa:#22324f"><div class="qhead">D0：10/14→16 去程</div><div class="qline">TPE→新加坡→布里斯本→基督城 · ⏰ 10/16 00:25 落地</div><div class="qhi">去程兩段轉機；抵達後入住 LyLo 機場艙過夜（TWD 1,255）</div></div>';
+let qrows='<div class="qrow" data-go="1" style="--qa:#22324f"><div class="qhead">D0：10/14→16 去程</div><div class="qline">TPE→布里斯本→基督城（中華直飛） · ⏰ 10/16 00:25 落地</div><div class="qhi">去程兩段轉機；抵達後入住 LyLo 機場艙過夜（TWD 1,255）</div></div>';
 DAYS.forEach(d=>{
   const dd=(d.date.match(/^(\S+)/)||[])[1]||d.date;
   const q=QUICK[d.n]||["","",""];
@@ -566,6 +562,18 @@ accom.innerHTML=`
     <h1>🛏️ 住宿地點一覽</h1>
     <div class="hvibe">夜夜湖畔山色 <span>· Where You Sleep</span></div>
   </header>
+  <div class="near" style="margin-top:2px;padding:11px 14px;border-radius:12px;background:#eef1f7;border:1px solid #cdd8ea;font-size:14px;color:#22324f">🌟 <b>住宿特色一句話</b>：湖景多、兩晚有泳池／溫泉可泡、四晚有廚房或洗衣機，自駕很順。</div>
+  <div class="blabel" style="color:#34507a;margin-top:12px">🛏 一句話看每晚</div>
+  <div class="near" style="margin-top:6px;padding:12px 14px;border-radius:12px;background:#f7f8f6;border:1px dashed #b9c4d6;font-size:13.5px;line-height:1.95;color:#3a3a3a">
+    🛬 <b>機場夜 LyLo</b>：機場旁、可入住到次日 06:00，接 00:25 深夜班機剛好<br>
+    ⛷ <b>D1 Ski Time（Methven）</b>：四星、Mt Hutt 山腳<br>
+    ♨️ <b>D2 Lakes Edge（Tekapo）</b>：湖畔、走 5 分到溫泉、暗空看星，家庭房可住 4<br>
+    🤫 <b>D3 Lake Hāwea 待客小屋</b>：哈威亞湖畔整套小屋、有洗衣機、最安靜<br>
+    💎 <b>D4 五星精品度假屋（皇后鎮）</b>：★4.86、按摩浴缸＋泳池、整套 2 床，全程最享受<br>
+    🏡 <b>D5 Te Anau Tiny House</b>：整套小屋、2 床、有洗衣機<br>
+    🚗 <b>D6 Amber Court（Te Anau）</b>：四星汽旅、小廚房、雙床一室<br>
+    🔥 <b>D7 Ora Retreat（皇后鎮 Sunshine Bay）</b>：湖景靜修 lodge、火爐、含早餐，最後一晚放空
+  </div>
   <div class="blabel" style="color:#34507a">🏨 八晚住宿（含 D0 機場夜）· 點任一晚可跳到當天</div>
   <div class="acard">${arows}</div>
   <div class="atotal" style="margin-top:10px;padding:12px 14px;border-radius:12px;background:#eef1f7;border:1px solid #cdd8ea">
@@ -607,7 +615,7 @@ souv.innerHTML=`
     <div class="arow"><div class="an" style="background:#566587">紀念</div>
       <div class="ainfo"><div class="adate">Tekapo · Wanaka · 皇后鎮</div><div class="aplace">觀光紀念品店</div><div class="adesc">羊毛／負鼠製品、Paua 飾品、明信片——較貴，挑特色款就好</div></div></div>
     <div class="arow"><div class="an" style="background:#22324f">免稅</div>
-      <div class="ainfo"><div class="adate">皇后鎮機場 · 新加坡樟宜</div><div class="aplace">機場免稅</div><div class="adesc">皇后鎮機場小、選擇少；免稅以香水／國際品牌為主，紐西蘭在地品牌反而當地藥妝更便宜</div></div></div>
+      <div class="ainfo"><div class="adate">皇后鎮機場 · 布里斯本轉機</div><div class="aplace">機場免稅</div><div class="adesc">皇后鎮機場小、選擇少；免稅以香水／國際品牌為主，紐西蘭在地品牌反而當地藥妝更便宜</div></div></div>
   </div>
   <div class="blabel" style="color:#3d5980;margin-top:14px">⭐ 怎麼買最划算</div>
   <div class="near" style="margin-top:6px;padding:12px 14px;border-radius:12px;background:#f7f8f6;border:1px dashed #b9c4d6;font-size:13.5px;line-height:2;color:#3a3a3a">
