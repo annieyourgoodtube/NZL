@@ -221,8 +221,8 @@ const DAYS=[
   note:"第一天刻意排很輕鬆（只 100km）。✅ 10/22 機場夜已訂 LyLo Christchurch Airport（5 Peter Leeming Rd · 無障礙雙床房／連通浴室（🛏 已是雙床 ✅）· TWD 3,902 含稅 · 免費取消至 10/21 · Trip.com 訂單 1359045667347609 · 入住 10/22 15:00～次日 06:00／退房 10/23 10:00，可過午夜入住，剛好接 01:20 抵達）；布里斯本→基督城接駁QF135（10/22 BNE 18:55 → 10/23 CHC 01:20 抵達）"},
  {n:2,date:"10/24 (六)",accent:"#3a5a82",title:"🌌 Oamaru → Tekapo（Waitaki 河谷）",vibe:"河谷星湖",vibeEn:"Waitaki to Tekapo",
   route:["Oamaru","Waitaki 河谷","Tekapo"],km:"210 km",soft:false,
-  intro:"【今日主題：Waitaki 河谷進高原】從 <b>Oamaru</b> 沿 <b>SH83 Waitaki 河谷</b>西行（可停 <b>Elephant Rocks</b> 巨石·納尼亞取景地），經 Omarama 進入麥肯齊高原。下午到 <b>Tekapo</b>，逛萌寵動物園餵小羊、看好牧羊人教堂、湖畔散步。入夜暗空保護區看銀河。",
-  tl:[["09:00","Oamaru 港區／老街散步"],["10:00","出發，走 SH83 Waitaki 河谷"],["~10:45","Elephant Rocks 巨石（納尼亞取景地）"],["12:00","Omarama 午餐"],["14:00","抵 Tekapo · 好牧羊人教堂"],["14:45","🐑 萌寵動物園（餵小羊、羊駝·9:00–17:00·45 分）"],["15:45","湖畔散步"],["16:30","Mt John 觀景"],["~17:30","回假日公園"],["晚","暗空保護區看銀河 🌌"]],
+  intro:"【今日主題：Waitaki 河谷進高原】從 <b>Oamaru</b> 沿 <b>SH83 Waitaki 河谷</b>西行（可停 <b>Elephant Rocks</b> 巨石·納尼亞取景地），經 Omarama 進入麥肯齊高原。下午到 <b>Tekapo</b>，看好牧羊人教堂、湖畔散步、開去 Lake Alexandrina 秘境湖。入夜暗空保護區看銀河。",
+  tl:[["09:00","Oamaru 港區／老街散步"],["09:30","🛒 New World Oamaru 採買今晚食材（Tekapo 超市小又貴，這裡買齊）"],["10:00","出發，走 SH83 Waitaki 河谷"],["~10:45","Elephant Rocks 巨石（納尼亞取景地）"],["12:00","Omarama 午餐"],["14:00","抵 Tekapo · 好牧羊人教堂"],["14:45","湖畔散步"],["15:30","Mt John 山頂觀景（Astro Café 咖啡）"],["~16:30","🏞 Lake Alexandrina 秘境湖（人少·山景倒影·野餐拍照）"],["~18:00","回 Lakes Edge · 公用廚房／BBQ 自己煮晚餐 🍳"],["晚","暗空保護區看銀河 🌌"]],
   shots:[["Elephant Rocks 巨石","★Waitaki 河谷、納尼亞取景地"],["好牧羊人教堂","★Tiffany 藍湖畔石教堂",1],["Mt John 觀景","俯瞰整片 Tekapo 湖"]],
   stay:"宿 <b>Lakes Edge Holiday Park</b>　Lake Tekapo · 2 Lakeside Drive（湖畔）· NZD 252.54（≈ TWD 4,546 · 入住時付）· 免費取消至 10/22 18:00 · ✅ 已訂（10/24→25）· Hotels.com 行程編號 73483379370436 · 🏠 湖畔假日公園 · BBQ／公用廚房 · 🧺 公用自助洗衣（5 台洗衣機＋烘衣機 · 投幣／刷卡） · 🛏 家庭房：1 張單人雙層床＋1 張加大雙人床（可住 4 人）",note:""},
  {n:3,date:"10/25 (日)",accent:"#355a86",title:"🏔️ Tekapo → Lake Hāwea（沿途遠眺 Mt Cook）",vibe:"牛奶湖越嶺",vibeEn:"Milky Lakes & Passes",
@@ -355,7 +355,7 @@ DAYS.forEach(d=>{
 });
 const QUICK={
  1:["凌晨抵 → 21:30","南下看野生企鵝：南極中心＋南下 250km 到 Oamaru，晚上看野生小藍企鵝上岸",""],
- 2:["09:00 → 傍晚","Waitaki 河谷進高原：Oamaru→Tekapo，藍湖石教堂、萌寵動物園，夜裡看暗空銀河",""],
+ 2:["09:00 → 傍晚","Waitaki 河谷進高原：Oamaru→Tekapo，藍湖石教堂、Lake Alexandrina 秘境湖，夜裡看暗空銀河",""],
  3:["08:30 → 16:00","牛奶湖之路：Pukaki 拍 Mt Cook，翻金色山口到 Lake Hāwea",""],
  4:["08:00 → 15:45","早餐→孤獨之樹→Cardrona 打靶→皇冠山脈→Glenorchy 騎馬","Real Guns＋Lighthorse"],
  5:["08:30 → 15:00","沿 Wakatipu 湖開到峽灣門口 Te Anau，輕鬆半天","Milford 午後遊船"],
@@ -376,7 +376,7 @@ const WOW = [
  {ic:'🐧',go:1,name:'國際南極中心（小藍企鵝・極地動物）',note:'10:30 餵企鵝、摸哈士奇、Hägglund 雪地車、暴風雪體驗——保證看到小藍企鵝'},
   {ic:'🐧',go:1,name:'Oamaru 野生藍企鵝保護區',note:'傍晚野生小藍企鵝成群上岸回巢、距離 10–15m，十月繁殖季數量最多（禁拍照）'},
  {ic:'⛪',go:2,name:'好牧羊人教堂 + 暗空銀河',note:'Tiffany 藍湖畔石教堂、世界級星空保護區，入夜抬頭就是銀河'},
-  {ic:'🐑',go:2,name:'Tekapo 萌寵動物園',note:'親手餵羊駝、小羊、KuneKune 豬，雪山當背景拍照（十月春天可餵奶瓶小羊）'},
+  {ic:'🏞',go:2,name:'Lake Alexandrina 秘境湖',note:'離 Tekapo 約 15 分的寧靜高山湖，沒有遊覽車、山景倒影、小碼頭野餐拍照，放空的隱藏景點'},
  {ic:'🥛',go:3,name:'Pukaki 牛奶湖 + 遠眺 Aoraki/Mt Cook',note:'乳藍湖配雪峰，經典明信片角度'},
   {ic:'🐟',go:3,name:'Mt Cook Alpine Salmon（Pukaki）',note:'世界海拔最高鮭魚養殖場，湖畔現切生魚片，配牛奶湖＋Mt Cook 絕景（約 9–17 時）'},
  {ic:'🛣',go:3,name:'Lindis Pass 金色草原越嶺',note:'山口沿路金黃草原，南島最美越嶺之一'},
@@ -426,7 +426,7 @@ cover.innerHTML=`
     <label class="bkrow"><input type="checkbox"><span class="bkic">🚠</span><div><b>Skyline 纜車（看夜景·不吃 buffet）</b><span class="bkd">D7 傍晚</span><div class="bkch">Skyline 官網／Trip.com 訂纜車來回票（不含 buffet）;傍晚上山看夕陽＋皇后鎮夜景;48h 前可免費取消</div></div></label>
     <div class="bkgrp">建議先訂 · 選配</div>
     <label class="bkrow"><input type="checkbox"><span class="bkic">🌌</span><div><b>Tekapo 觀星導覽</b><span class="bkd">D2 · 選配</span><div class="bkch">想參加 Dark Sky Project 導覽需預約;只是自己抬頭看銀河免預約</div></div></label>
-      <label class="bkrow"><input type="checkbox"><span class="bkic">🐑</span><div><b>Tekapo 萌寵動物園</b><span class="bkd">D2</span><div class="bkch">每天限額,官網/Rezdy 先訂;開 9–17、約 45 分,門票含飼料（48a D'Archiac Dr）</div></div></label>
+      
     <label class="bkrow"><input type="checkbox"><span class="bkic">🚁</span><div><b>直升機雪地降落</b><span class="bkd">選配</span><div class="bkch">皇后鎮出發、天氣彈性,想踩雪看冰川就靠它,早點訂</div></div></label>
   </section>
   <div class="lbl">放空小提醒</div><div class="lbl-en">Before you wander off</div>
@@ -439,6 +439,8 @@ cover.innerHTML=`
   </section>
   <p class="credit">Designed for Annie Hsu · 紐西蘭南島放空之旅 2026</p>`;
 stage.appendChild(cover);
+
+const prep=document.createElement('section');prep.className='page';prep.innerHTML=`<div class="dtop"><span class="k">出發前 / BEFORE</span><span class="k">行前準備 · 打勾</span></div><header class="dhero"><div class="hn">出發前先看 · Before You Go</div><h1>🎒 行前準備</h1><div class="hvibe">出發前逐項打勾 · Pre-trip Checklist</div></header><section class="book"><div class="bkgrp">📄 證件・簽證（最重要，先辦）</div><label class="bkrow"><input type="checkbox"><span class="bkic">🛂</span><div><b>護照效期 6 個月以上</b><div class="bkch">回程 10/31，效期建議到 2027 年 5 月後</div></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🇳🇿</span><div><b>紐西蘭 NZeTA 電子簽證 ＋ IVL 旅遊稅</b><div class="bkch">官網／App 線上申請，出發前至少 72 小時辦好</div></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🇦🇺</span><div><b>澳洲 ETA 過境簽證</b><div class="bkch">經布里斯本轉機必辦！用 Australian ETA App 申請</div></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🚗</span><div><b>國際駕照 ＋ 台灣駕照正本</b><div class="bkch">自駕兩者都要帶，缺一不可</div></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🎫</span><div><b>機票／訂房／租車／KKday 憑證</b><div class="bkch">存手機＋印一份紙本備份</div></div></label><div class="bkgrp">🚗 自駕準備</div><label class="bkrow"><input type="checkbox"><span class="bkic">⬅️</span><div><b>熟悉「靠左行駛」、圓環讓右</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🛡</span><div><b>租車全險已確認</b><div class="bkch">Budget · Zero Excess＋ADR＋RSN · 編號 49160913TW4</div></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🗺</span><div><b>下載離線地圖（Google Maps 南島）＋加油 App</b></div></label><div class="bkgrp">🧳 行李・穿搭（10 月春天・日夜溫差大）</div><label class="bkrow"><input type="checkbox"><span class="bkic">🧥</span><div><b>洋蔥式穿搭＋防風防水外套</b><div class="bkch">看企鵝／觀星要保暖帽手套</div></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🥾</span><div><b>健行鞋（入境前刷乾淨、無泥土）</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🕶</span><div><b>太陽眼鏡、防曬</b><div class="bkch">南島紫外線很強</div></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🔌</span><div><b>萬用轉接頭（紐澳 I 型三腳插）</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">📷</span><div><b>相機／記憶卡／行動電源、望遠鏡</b><div class="bkch">看企鵝、海狗、kea 更清楚</div></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">💊</span><div><b>個人常備藥（原包裝）、環保購物袋</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🧂</span><div><b>帶少量鹽、油（小罐分裝）</b><div class="bkch">住宿自己煮晚餐用，紐西蘭超市整罐買較貴</div></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🧊</span><div><b>保冷袋 ＋ 保冷劑（冰寶）</b><div class="bkch">超市買肉類／生鮮後車上保鮮用（可折疊袋＋重複凍的冰寶）</div></div></label><div class="bkgrp">💳 金錢・通訊</div><label class="bkrow"><input type="checkbox"><span class="bkic">💳</span><div><b>通知銀行海外刷卡、備免手續費信用卡</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">💵</span><div><b>少量紐幣現金</b><div class="bkch">小鎮、停車、市集用</div></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">📱</span><div><b>紐西蘭 SIM／eSIM 或開通漫遊</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🧳</span><div><b>回程 BNE 記得領行李重掛</b><div class="bkch">維珍 VA（KFHKBO）與中華 CI（FS7NAR）是分開票</div></div></label><div class="bkgrp">🛃 入境紐西蘭（生物安全很嚴）</div><label class="bkrow"><input type="checkbox"><span class="bkic">🚫</span><div><b>不可帶：蜂蜜、水果、肉、蛋、種子、蜂產品</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">📝</span><div><b>入境卡誠實申報</b><div class="bkch">健行／露營裝備、藥品要申報，不確定就申報</div></div></label><div class="bkgrp">✅ 出發前確認訂位</div><label class="bkrow"><input type="checkbox"><span class="bkic">🐄</span><div><b>TSS＋Walter Peak BBQ（D7）</b><div class="bkch">✅ 已訂 #26KK289450018</div></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🐛</span><div><b>螢火蟲洞（D5 下午場）</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">⛴</span><div><b>Milford 遊船（D6 午後）</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🎯</span><div><b>Real Guns 打靶（D4 上午）</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🐎</span><div><b>Lighthorse 騎馬（D4 下午）</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🐧</span><div><b>Oamaru 藍企鵝（D1 傍晚）</b></div></label><label class="bkrow"><input type="checkbox"><span class="bkic">🚠</span><div><b>Skyline 纜車（D7）</b></div></label></section>`;stage.appendChild(prep);
 const flightpg=document.createElement('section');
 flightpg.className='page';flightpg.style.setProperty('--accent','#2b5d8a');
 flightpg.innerHTML=`
@@ -650,7 +652,7 @@ stage.appendChild(souv);
 
 // ---- tabs ----
 const tabsEl=document.getElementById('tabs');
-['D0','航班','🛒',...DAYS.map(d=>'D'+d.n),'住宿','伴手禮'].forEach((t,i)=>{
+['D0','📋','航班','🛒',...DAYS.map(d=>'D'+d.n),'住宿','伴手禮'].forEach((t,i)=>{
   const b=document.createElement('div');b.className='tab';b.textContent=t;b.onclick=()=>go(i);tabsEl.appendChild(b);
 });
 const tabEls=[...tabsEl.children];
@@ -666,7 +668,7 @@ function go(i,dir){
   tabEls.forEach((t,k)=>t.classList.toggle('on',k===i));
   tabEls[i].scrollIntoView({inline:'center',block:'nearest',behavior:'smooth'});
   prevB.classList.toggle('off',i===0);nextB.classList.toggle('off',i===pages.length-1);
-  indEl.innerHTML=i===0?'D0 · 去程':(i<=8?`第 <b>${i}</b> 天 / 8`:(i===9?'住宿':'🛍 伴手禮'));
+  indEl.innerHTML=i===0?'D0 · 去程':i===1?'📋 行前準備':i===2?'✈️ 航班':i===3?'🛒 超市':(i>=4&&i<=11)?`第 <b>${i-3}</b> 天 / 8`:i===12?'住宿':'🛍 伴手禮';
   homeB.style.display=i===0?'none':'flex';
   window.scrollTo({top:0});
   if(history.replaceState)history.replaceState(null,'',i===0?'#':'#d'+i);
